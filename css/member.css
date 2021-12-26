@@ -1,0 +1,140 @@
+.member_bg {position:relative;width:100%; height:100vh; background:url(../images/member/main_bg.png) center center no-repeat; background-size:cover; filter:grayscale(1) blur(5px);}
+/*** 멤버 소개 ***/
+.portfolio_area{margin-top:225px;}
+.portfolio_area .portfolio_member {margin-top:60px;}
+.portfolio_area .portfolio_member .member_info {display:flex;}
+.portfolio_area .portfolio_member .port_thumb {}
+.portfolio_area .portfolio_member .port_info{margin:0 0 0 75px;}
+.portfolio_area .portfolio_member .port_info .info_tit{line-height:38px; font-size:30px;}
+.portfolio_area .portfolio_member .port_info .info_thumb {width:210px; height:210px; border-radius:50%; margin-bottom:25px;}
+.portfolio_area .portfolio_member .port_info .info_list{display:flex; margin-top:23px; font-size:18px;}
+.portfolio_area .portfolio_member .port_info .info_list .info{display:flex; color:#3FBEA4;}
+.portfolio_area .portfolio_member .port_info .info_list .type{display:flex; position:relative; padding-left:22px; color:#FFFFFF;}
+.portfolio_area .portfolio_member .port_info .info_list .type:before{content:''; display:block; width:5px; height:5px; position:absolute; left:0; top:50%; background-color:#ddd; border-radius:50%; transform:translateY(-50%);}
+.portfolio_area .portfolio_member .port_info .info_list span{margin-right:15px;}
+.portfolio_area .portfolio_member .port_info .info_desc{margin-top:40px; line-height:26px; word-break:keep-all; font-size:18px; font-weight:400; color:#FFFFFF;}
+.portfolio_area .portfolio_member .port_info .sns_con {display:flex; align-items: center; margin-top:15px;}
+.portfolio_area .portfolio_member .port_info .sns_con li  + li {margin-left:10px;}
+.portfolio_area .portfolio_member .port_info .sns_con li a img {width:24px; height:24px;}
+.portfolio_area .portfolio_member .port_paging{position:relative; margin-top:70px;}
+.portfolio_area .portfolio_member .swiper-pagination-progressbar{height:2px; background-color:#eee;}
+.portfolio_area .portfolio_member .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{background-color:#19254C;}
+
+/* 멤버별 멤버소개*/
+
+/* 아이네 */
+.portfolio_area .portfolio_member .port_info.info_ine .info_thumb {background:url(../images/member/info_ine.png) top center no-repeat; background-size:cover;}
+.portfolio_area .portfolio_member .port_info.info_ine .info_list .info{display:flex; color:#AB6FE3;}
+
+/* 징버거 */
+.portfolio_area .portfolio_member .port_info.info_jingburger .info_thumb {background:url(../images/member/info_jing.png) top center no-repeat; background-size:cover;}
+.portfolio_area .portfolio_member .port_info.info_jingburger .info_list .info{display:flex; color:#f0a957;}
+
+/* 릴파 */
+.portfolio_area .portfolio_member .port_info.info_lilpa .info_thumb {background:url(../images/member/info_lli.png) top center no-repeat; background-size:cover;}
+.portfolio_area .portfolio_member .port_info.info_lilpa .info_list .info{display:flex; color:#0080ff;}
+
+/* 주르르 */
+.portfolio_area .portfolio_member .port_info.info_jururu .info_thumb {background:url(../images/member/info_ju.png) top center no-repeat; background-size:cover;}
+.portfolio_area .portfolio_member .port_info.info_jururu .info_list .info{display:flex; color:#800080;}
+
+/* 고세구 */
+.portfolio_area .portfolio_member .port_info.info_gosegu .info_thumb {background:url(../images/member/info_go.png) top center no-repeat; background-size:cover;}
+.portfolio_area .portfolio_member .port_info.info_gosegu .info_list .info{display:flex; color:#467ec6;}
+
+/* 비챤 */
+.portfolio_area .portfolio_member .port_info.info_viichan .info_thumb {background:url(../images/member/info_vi.png) top center no-repeat; background-size:cover;}
+.portfolio_area .portfolio_member .port_info.info_viichan .info_list .info{display:flex; color:#85ac20;}
+
+/*** 타이포 배너 ***/
+.typo_area{position:relative; width:100%; margin:380px auto 0; overflow:hidden;}
+.typo_area span{display:block;}
+.typo_area .typo_text01{line-height:1; font-family:'Noto Sans KR'; font-size:10vw; font-weight:700; letter-spacing:-0.06em; color:#FFFFFF;}
+.typo_area .typo_text01 em{font-weight:700; color:#3FBEA4;}
+.typo_area .typo_text02{margin:15px 0 0 0; line-height:1; font-family:'Noto Sans KR'; font-size:10vw; font-weight:700; letter-spacing:-0.06em; color:#FFFFFF; text-align:right;}
+.typo_area .typo_text02 em{font-weight:700;color:#3FBEA4;}
+.typo_area .typo_text03{text-align:center;line-height:120px; margin:40px 0 0 0; font-size:120px; color:#FFFFFF;}
+.typo_area .typo_text03 em{color:#3FBEA4;}
+.typo_area .typo_text04{text-align:center;margin:20px 0 0 0; line-height:40px; font-family:'Noto Sans KR'; font-size:40px; font-weight:400; color:#FFFFFF;}
+
+/* 멤버별 타이포 txt */
+
+/* 아이네 */
+.member_ine .typo_area .typo_text01 em{color:#AB6FE3;}
+.member_ine .typo_area .typo_text02 em{color:#AB6FE3;}
+.member_ine .typo_area .typo_text03 em{color:#AB6FE3;}
+
+/* 징버거 */
+.member_jingburger .typo_area .typo_text01 {font-size:8vw;}
+.member_jingburger .typo_area .typo_text02 {font-size:8vw;}
+.member_jingburger .typo_area .typo_text01 em{color:#f0a957;}
+.member_jingburger .typo_area .typo_text02 em{color:#f0a957;}
+.member_jingburger .typo_area .typo_text03 em{color:#f0a957;}
+
+/* 릴파 */
+.member_lilpa .typo_area .typo_text01 em{color:#0080ff;}
+.member_lilpa .typo_area .typo_text02 em{color:#0080ff;}
+.member_lilpa .typo_area .typo_text03 em{color:#0080ff;}
+
+/* 주르르 */
+.member_jururu .typo_area .typo_text01 em{color:#800080;}
+.member_jururu .typo_area .typo_text02 em{color:#800080;}
+.member_jururu .typo_area .typo_text03 em{color:#800080;}
+
+/* 고세구 */
+.member_gosegu .typo_area .typo_text01 em{color:#467ec6;}
+.member_gosegu .typo_area .typo_text02 em{color:#467ec6;}
+.member_gosegu .typo_area .typo_text03 em{color:#467ec6;}
+
+/* 비챤 */
+.member_viichan .typo_area .typo_text01 em{color:#85ac20;}
+.member_viichan .typo_area .typo_text02 em{color:#85ac20;}
+.member_viichan .typo_area .typo_text03 em{color:#85ac20;}
+
+.recommend_area {margin-top:200px; overflow:hidden;}
+.recommend_area .recommend_slide {margin-top:30px;}
+
+/*** 다른 멤버 ***/
+.member_area{margin-top:225px;}
+.member_area .member_list{ display:flex; flex-direction:row; flex-wrap:wrap; justify-content:space-between; gap:50px 0; margin-top:60px;}
+.member_area .card_box{position:relative;}
+.member_area .member_list .card{width:210px; height:210px; line-height:210px; text-align:center;}
+.member_area .member_list .card .box{position:absolute; width:100%; height:100%; border-radius:50%; backface-visibility:hidden;}
+.member_area .member_list .card .box img{border-radius:50%; vertical-align:middle;}
+.member_area .member_list .card .front{background-color:transparent;}
+.member_area .member_list .card .back{display:none; position:relative; background-color:transparent;}
+.member_area .member_list .card .back span {z-index:99;position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); font-size:24px; color:#FFFFFF; font-weight:bold;}
+.member_area .member_list .card .back img {filter:grayscale(1.0);}
+.member_area .member_list .card .back.show{display:block;}
+.member_area .member_list .tolltip{visibility:hidden; position:absolute; left:50%; bottom:250px; z-index:2; padding:20px; line-height:28px; color:#333; font-size:16px; font-weight:400; white-space:nowrap; background-color:#fff; border:solid 1px #ddd; border-radius:10px; transform:translateX(-50%); opacity:0; transition:all .5s ease;}
+.member_area .member_list .tolltip.over{visibility:visible; bottom:220px; opacity:1;}
+
+/*** 홈으로 가기 ***/
+.home_area{position:relative;margin-top:200px;}
+.home_area .home_cnt{position:relative; z-index:10; width:1480px; margin:0 auto; padding:160px 20px 0;}
+.home_area .home_cnt .tit{display:block; line-height:63px; font-size:80px; font-weight:700; color:#000000;}
+.home_area .home_cnt .txt01{display:block; margin-top:35px; line-height:158px; font-family:'Noto Sans KR'; font-size:150px; font-weight:700; color:#3FBEA4;}
+
+/* 멤버별 홈 txt */
+
+/* 아이네 */
+.member_ine .home_area .home_cnt .txt01{display:block; margin-top:35px; line-height:158px; font-family:'Noto Sans KR'; font-size:150px; font-weight:700; color:#AB6FE3;}
+
+/* 징버거 */
+.member_jingburger .home_area .home_cnt .txt01{display:block; margin-top:35px; line-height:158px; font-family:'Noto Sans KR'; font-size:150px; font-weight:700; color:#f0a957}
+
+/* 릴파 */
+.member_lilpa .home_area .home_cnt .txt01{display:block; margin-top:35px; line-height:158px; font-family:'Noto Sans KR'; font-size:150px; font-weight:700; color:#0080ff;}
+
+/* 주르르 */
+.member_jururu .home_area .home_cnt .txt01{display:block; margin-top:35px; line-height:158px; font-family:'Noto Sans KR'; font-size:150px; font-weight:700; color:#800080;}
+
+/* 고세구 */
+.member_gosegu .home_area .home_cnt .txt01{display:block; margin-top:35px; line-height:158px; font-family:'Noto Sans KR'; font-size:150px; font-weight:700; color:#467ec6;}
+
+/* 비챤 */
+.member_viichan .home_area .home_cnt .txt01{display:block; margin-top:35px; line-height:158px; font-family:'Noto Sans KR'; font-size:150px; font-weight:700; color:#85ac20;}
+
+.home_area .home_cnt .txt02{display:block; line-height:120px; font-family:'Noto Sans KR'; font-size:100px; font-weight:100; color:#FFFFFF;}
+.home_area .home_cnt .txt03{margin-top:50px; line-height:28px; font-size:20px; color:#FFFFFF;}
+.home_area .home_bg{position:absolute; top:0; left:0; width:100%; height:500px; background:url(../images/member/home_bg.png) center top; background-attachment:fixed; background-repeat:no-repeat; background-size:cover; filter: grayscale(1) blur(5px);}
