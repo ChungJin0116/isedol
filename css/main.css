@@ -1,6 +1,6 @@
 /* 메인 비쥬얼  */
 .main_visual{position:relative;}
-.main_visual .dark_bg{z-index:99;position:absolute;top:0;left:0;width:100%; height:100vh; background:rgba(0,0,0, .95);}
+.main_visual .dark_bg{z-index:99;position:absolute;top:0;left:0;width:100%; height:100vh; background:rgba(0,0,0, .75);}
 .main_visual .visual_slider{width:100%; height:100vh;}
 .main_visual .visual_slider video{width:100%; height:100%; object-fit:cover;}
 .main_visual .visual_slider img{width:100%; height:100%; object-fit:cover;}
@@ -61,7 +61,7 @@
 /*** 연혁 ***/
 .history_area{position:relative; width:100%; margin-top:100px;}
 .history_area:after{content:''; display:block; clear:both;}
-.history_area:before{content:""; display:block; position:absolute; left:0; top:0; width:100%; height:100%; background-color:rgba(0, 0, 0, .9); z-index:1;}
+.history_area:before{content:""; display:block; position:absolute; left:0; top:0; width:100%; height:100%; background-color:rgba(0, 0, 0, .75); z-index:1;}
 .history_area .cnt_area{position:relative; width:1440px; margin:0 auto; height:100%;}
 .history_area .cnt_area .cnt_pin{width:100%; position:relative; left:0; top:0; z-index:10;}
 
